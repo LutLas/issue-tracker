@@ -1,0 +1,36 @@
+{
+  "author": "LutLas",
+	"name": "issue-tracker",
+	"version": "0.0.1",
+	"description": "What am I about?",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"chai": "^3.5.0",
+		"chai-http": "^4.0.0",
+		"cors": "^2.8.1",
+		"dotenv": "^6.0.0",
+		"express": "^4.16.0",
+		"helmet": "^3.12.1",
+		"mocha": "^5.2.0",
+		"mongodb": "^2.2.16",
+		"nodemon": "^1.18.3",
+		"xss-filters": "^1.2.7",
+		"zombie": "^6.1.2"
+	},
+	"engines": {
+		"node": "10.15.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lutlas/issue-tracker"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
